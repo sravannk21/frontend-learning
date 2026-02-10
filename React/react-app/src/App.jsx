@@ -1,11 +1,17 @@
-function App() {
+function Card(props){
   return (
     <div>
-      <h1>Hello Shravan</h1>
-      <p>This is my first React component.</p>
-      <p>I am becoming a frontend developer.</p>
+      <h3>{props.name}</h3>
+      <p>{props.role}</p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Card name="Sravan NK" role="Frontend Developer" />
+      <Card name="Laika" role="Your guide" />
+    </div>
+  )
+}
