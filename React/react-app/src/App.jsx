@@ -1,6 +1,7 @@
 import Profile from "./Profile";
 import Counter from "./counter";
 import Toggle from "./Toggle";
+import UserList from "./UserList";
 function Card(props) {
   return (
     <div>
@@ -17,6 +18,7 @@ function Card(props) {
         <Profile name="Laika" role="mentor"/>
         <Counter />
         <Toggle/>
+        <UserList/>
       </section>
 
     </div>
